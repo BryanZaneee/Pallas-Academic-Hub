@@ -1,3 +1,32 @@
+## My contribution
+
+This is my fork of [ysheliakin/pallass](https://github.com/ysheliakin/pallass), a
+five-person team project. I owned the React front end: 16 commits between
+September and November 2024, including upstream PR
+[#3](https://github.com/ysheliakin/pallass/pull/3).
+
+What I built:
+
+- **Routing and layout.** Set up `router.tsx` and a shared `layout.tsx` so every
+  page uses one design language, then kept it in sync as pages were added.
+- **Auth and landing pages.** Home, login, sign up, and the logged-in home page,
+  built from the team's wireframes.
+- **Threads.** Discover Threads, Create Thread, and View Thread front ends,
+  wired into the router and the logged-in home page.
+- **Q&A and groups.** Host Q&A and Join Q&A pages; Create Group and Join Group
+  pages; group management on the home page, including remove with a confirmation
+  dialog.
+- **Sessions.** Create Online Session, with validated entry for date, time, max
+  attendees, and group IDs, plus a Scheduled Sessions panel on the home page.
+- **Profile and settings.** User profile page with editable details and image
+  upload, and a settings page covering notification, appearance, and privacy
+  options.
+- **Header.** Navigation links, profile icon, and the fixes that followed.
+
+Everything below this section is the upstream project README, unchanged.
+
+---
+
 # pallass
 
 Pallas’s Hub is an innovative web application designed to serve as a comprehensive platform for researchers and scholars to collaborate, share knowledge, and secure funding opportunities. It addresses the fragmented nature of current tools by offering integrated features tailored to the needs of the scientific community. 
